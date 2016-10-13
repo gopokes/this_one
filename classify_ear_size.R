@@ -3,3 +3,4 @@ get_size_class <- function(ear_length){
    ear_lengths <- ifelse(ear_length > 10, "large", "small")
    return(ear_lengths)
 }
+
